@@ -1,0 +1,6 @@
+class demo{
+public static void main(String args[]){
+	System.out.println();
+}
+
+/* All functions in java are classes (hence, capital letters). System is a class and out is its object. */
