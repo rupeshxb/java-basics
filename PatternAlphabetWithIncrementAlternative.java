@@ -8,19 +8,17 @@ G H I J
 
     import java.util.*;
 
-    class PatternAlphabetWithIncrement{
+    class PatternAlphabetWithIncrementAlternative{
         public static void main(String args[])
         {
         int num_for_a = 65;
         int i,j;
-        // convert int to char
-        // typecasting
-        char char_converted = (char)num_for_a;
+        char ch='A';
             for (i=1;i<=4;i++)
             {
                 for(j=1;j<=i;j++)
                 {
-                    System.out.print(char_converted++ + " "); 
+                    System.out.print(ch++ + " "); 
                 }
                 System.out.println(" ");
             }
