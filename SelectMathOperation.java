@@ -28,6 +28,7 @@ class SelectMathOperation{
         // option = x.nextInt();
         opt = x.next().charAt(0);
         option = Character.toUpperCase(opt);
-        }while(option!='N');
+        }while(option!='N'); // && opt!='n'
+        
     }
 }
