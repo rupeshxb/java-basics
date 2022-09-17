@@ -1,3 +1,5 @@
+// Program to add two numbers
+
 class AddTwoNumbers{
 	public static void main(String args[])
 	{

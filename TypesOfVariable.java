@@ -5,7 +5,7 @@ class TypesOfVariable{
     public static void main(String args[]){
         int z=10; // local variable
 
-        // System.out.println("Value of non-static instance variable:" + x); 
+        System.out.println("Value of non-static instance variable:" + x); 
 
         /* Non-static instance variable cannot be accessed from a static context. 
         Hence, x can't be accessed here. */

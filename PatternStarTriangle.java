@@ -10,7 +10,7 @@
 
 import java.util.*;
 
-class PatternStar{
+class PatternStarTriangle{
     public static void main(String args[])
     {
         int i,j;
@@ -20,7 +20,7 @@ class PatternStar{
             {
                 System.out.print("* ");
             }
-            System.out.println(" ");
+            System.out.println(" "); // go to next line after each row
         }
     }
 }
